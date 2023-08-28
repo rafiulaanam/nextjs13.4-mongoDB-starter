@@ -1,5 +1,5 @@
 // Define the base URL for API requests
-const BASE_URL = "https://nextjs13-4-mongo-db-starter-4uldpgwch-rafiulaanam.vercel.app/";
+const BASE_URL = "https://nextjs13-4-mongo-db-starter.vercel.app/";
 
 // Function to fetch a list of users
 export const getData = async (route) => {
