@@ -20,7 +20,7 @@ const fetcher = (url) => fetch(url).then((r) => r.json())
  
 export default function UserId({params:{userId}}) {
   const { data, error } = useSWR(
-    `https://nextjs13-4-mongo-db-starter-inyohutld-rafiulaanam.vercel.app/api/users/${userId}`,
+    `nextjs13-4-mongo-db-starter-e95r4gsdn-rafiulaanam.vercel.app/api/users/${userId}`,
     fetcher
   )
   if (error) return 'Failed to load'
